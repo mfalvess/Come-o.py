@@ -1,0 +1,11 @@
+num1 = int(input("Digite o primeiro número: "));
+num2 = int(input("Digite o segundo número: "));
+
+cont = 1
+soma = 0
+
+while(cont <= num2):
+    soma = soma + num1
+    cont = cont + 1
+
+print("O resultado da multiplicação de", num1, "por ", num2, "é ", soma);
